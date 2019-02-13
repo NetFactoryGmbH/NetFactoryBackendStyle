@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element required="true" type="button" scope="locale">
+            <name>BackendStyleH1</name>
+            <label lang="en">Background Settings</label>
+            <label lang="de">Hintergrund Einstellungen</label>
+        </element>
+        <element type="mediaselection" scope="locale">
+            <name>BackendStyleBackgroundMedia</name>
+            <label lang="en">Background Logo</label>
+            <label lang="de">Hintergrund Logo</label>
+        </element>
+        <element required="true" type="select" scope="locale">
+            <name>BackendStyleBackgroundSize</name>
+            <label lang="en">Background Image Size</label>
+            <label lang="de">Größe Hintergrund Logo</label>
+            <value></value>
+            <store>
+                <option>
+                    <value></value>
+                    <label lang="de">Originalgröße</label>
+                    <label lang="en">Original Size</label>
+                </option>
+                <option>
+                    <value>0</value>
+                    <label>0%</label>
+                </option>
+                <option>
+                    <value>10</value>
+                    <label>10%</label>
+                </option>
+                <option>
+                    <value>20</value>
+                    <label>20%</label>
+                </option>
+                <option>
+                    <value>30</value>
+                    <label>30%</label>
+                </option>
+                <option>
+                    <value>40</value>
+                    <label>40%</label>
+                </option>
+                <option>
+                    <value>50</value>
+                    <label>50%</label>
+                </option>
+                <option>
+                    <value>60</value>
+                    <label>60%</label>
+                </option>
+                <option>
+                    <value>70</value>
+                    <label>70%</label>
+                </option>
+                <option>
+                    <value>80</value>
+                    <label>80%</label>
+                </option>
+                <option>
+                    <value>90</value>
+                    <label>90%</label>
+                </option>
+                <option>
+                    <value>100</value>
+                    <label>100%</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" type="select" scope="locale">
+            <name>BackendStyleBackgroundTransparency</name>
+            <label lang="en">Background Logo Transparency</label>
+            <label lang="de">Transparenz Hintergrund Logo</label>
+            <value>100</value>
+            <store>
+                <option>
+                    <value>100</value>
+                    <label lang="de">Volle Sichtbarkeit</label>
+                    <label lang="en">Fully Visible</label>
+                </option>
+                <option><value>90</value><label>90%</label></option>
+                <option><value>80</value><label>80%</label></option>
+                <option><value>70</value><label>70%</label></option>
+                <option><value>60</value><label>60%</label></option>
+                <option><value>50</value><label>50%</label></option>
+                <option><value>40</value><label>40%</label></option>
+                <option><value>30</value><label>30%</label></option>
+                <option><value>20</value><label>20%</label></option>
+                <option><value>10</value><label>10%</label></option>
+                <option>
+                    <value>0</value>
+                    <label lang="de">Unsichtbar</label>
+                    <label lang="en">Hidden</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" type="select" scope="locale">
+            <name>BackendStyleBackgroundGrayscale</name>
+            <label lang="en">Background Logo Grayscale</label>
+            <label lang="de">Graustufen Hintergrund Logo</label>
+            <value>0</value>
+            <store>
+                <option>
+                    <value>0</value>
+                    <label lang="de">Keine Graustufen</label>
+                    <label lang="en">No Grayscale</label>
+                </option>
+                <option><value>10</value><label>10%</label></option>
+                <option><value>20</value><label>20%</label></option>
+                <option><value>30</value><label>30%</label></option>
+                <option><value>40</value><label>40%</label></option>
+                <option><value>50</value><label>50%</label></option>
+                <option><value>60</value><label>60%</label></option>
+                <option><value>70</value><label>70%</label></option>
+                <option><value>80</value><label>80%</label></option>
+                <option><value>90</value><label>90%</label></option>
+                <option>
+                    <value>100</value>
+                    <label lang="de">Volle Graustufen</label>
+                    <label lang="en">Full Grayscale</label>
+                </option>
+            </store>
+        </element>
+        <element required="true" type="button" scope="locale">
+            <name>BackendStyleH2</name>
+            <label lang="en">Menu Settings</label>
+            <label lang="de">Menü Einstellungen</label>
+        </element>
+        <element required="true" type="boolean" scope="locale">
+            <name>BackendStyleShowMenuLogo</name>
+            <label lang="en">Hide Menu Logo</label>
+            <label lang="de">Verstecke Menü Logo</label>
+            <value>false</value>
+        </element>
+    </elements>
+</config>

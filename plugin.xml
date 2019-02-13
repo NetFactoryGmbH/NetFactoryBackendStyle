@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label>NetFactory - Backend Style</label>
+
+    <version>1.0.0</version>
+
+    <copyright>(c) by NetFactory GmbH, Karlsruhe</copyright>
+    <license>Proprietary</license>
+    <link>https://www.net-factory.de</link>
+
+    <author>NetFactory Gesellschaft für Netzwerklösungen mbH</author>
+
+    <compatibility minVersion="5.2.0"/>
+
+    <changelog version="1.0.0">
+        <changes lang="en">Initial version for the SW store</changes>
+        <changes lang="de">Initiale Version für den SW Store</changes>
+    </changelog>
+
+
+    <description lang="en">
+        <![CDATA[
+            <span style="font-size: 0.9375rem;">This plugin allows you to use your own backend logo in the background. Some settings will help you to adapt the logo to the backend.</span>
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            <span style="font-size: 0.9375rem;">Dieses Plugin erlaubt es Ihnen im Backend eine eigenes Logo im Hintergrund zu verwenden. Einige Einstellungen helfen Ihnen dabei das Logo weiter an das Backend anzupassen.</span>
+        ]]>
+    </description>
+
+</plugin>
