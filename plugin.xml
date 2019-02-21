@@ -7,7 +7,7 @@
     <version>1.0.0</version>
 
     <copyright>(c) by NetFactory GmbH, Karlsruhe</copyright>
-    <license>Proprietary</license>
+    <license>LGPL</license>
     <link>https://www.net-factory.de</link>
 
     <author>NetFactory Gesellschaft für Netzwerklösungen mbH</author>
@@ -18,7 +18,6 @@
         <changes lang="en">Initial version for the SW store</changes>
         <changes lang="de">Initiale Version für den SW Store</changes>
     </changelog>
-
 
     <description lang="en">
         <![CDATA[
